@@ -1,0 +1,112 @@
+/*start header*/
+
+.header {
+    background-image: url('../images/ccc.jpg');
+    background-size: cover;
+    padding-top: 411px;
+    padding-bottom: 230px;
+    background-position: center;
+    position: relative;
+}
+
+.text-header {
+    color: #fff;
+}
+
+.button-header {
+    background: #d85e43;
+    display: inline-block;
+    color: #fff;
+    border: none;
+    padding: 12px 36px;
+    font-size: 16px;
+    transition: all .6s ease-in-out;
+}
+
+.button-header:hover {
+    background: #3f1786;
+}
+
+.button-header2 {
+    background: #3f85d6;
+    color: #fff;
+    border: none;
+    padding: 12px 36px;
+    margin-left: 15px;
+    font-size: 16px;
+    transition: all .6s ease-in-out;
+    margin-top: 10px;
+}
+
+.button-header2:hover {
+    background: #3f1786;
+}
+
+
+/*end header*/
+
+
+/*start protection*/
+.text-protection {
+    text-align: center;
+    padding-top: 46px;
+    font-size: 28px;
+    color: #43199c;
+
+
+}
+
+.protection {
+    background-color: #fff;
+}
+
+/*end protection*/
+
+/*start card2*/
+
+.cardd2 {
+    background: #fff;
+    margin-top: 120px;
+}
+
+
+/*end card2*/
+
+/*start container question*/
+#text-watch-more {
+    text-align: center;
+    margin-top: 76px;
+    font-size: 30px;
+    color: #2828ab;
+
+}
+
+.con {
+    width: 60%;
+}
+
+/*end container question*/
+
+
+
+@media only screen and (max-width:768px) {
+    .con {
+
+        width: 100%;
+
+    }
+
+    .center {
+        margin: 0 auto;
+        display: -webkit-box;
+
+    }
+    .center2{
+    margin: 0 auto;
+    display: -webkit-box;
+    margin-left: 39px!important;
+    margin-top: 30px;
+    }
+
+
+}
